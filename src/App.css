@@ -1,0 +1,80 @@
+.container {
+  width: 900px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn-danger {
+  background-color: #fe2c55 !important;
+  border-color: #fe2c55 !important;
+}
+
+.btn-outline-danger:hover,
+.btn-danger:hover {
+  background-color: #fe2c55 !important;
+}
+
+.suggestedAccountIcon {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.col-sm-7,
+.col-sm-9 {
+  margin: 0 auto;
+}
+
+.user:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+
+  .user_desc {
+    width: 520px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+
+  .user_desc {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+
+  .user_desc {
+    width: 260px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+
+  .number {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .user_desc {
+    width: 250px;
+  }
+}

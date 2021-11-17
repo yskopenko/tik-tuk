@@ -1,0 +1,34 @@
+.pageHeader_tikTok {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+}
+
+.search_tikTok {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ecebeb;
+    border-radius: 20px;
+    background-color: #ecebeb;
+    max-width: 50%;
+    margin: auto;
+}
+
+.search_tikTok_input {
+    border: none;
+    border-radius: 20px;
+    background-color: #ecebeb;
+}
+
+.search_tikTok_input:hover,
+.search_tikTok_input:active,
+.search_tikTok_input:focus {
+    border: none;
+    box-shadow: none;
+    background-color: #ecebeb;
+}
+
+.search_tikTok_icon {
+    display: block;
+    padding: 10px;
+    border-left: 1px solid #ecebeb;
+}

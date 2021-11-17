@@ -1,0 +1,177 @@
+.pageHeader_tikTok {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+}
+
+.container {
+    width: 900px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.video__player {
+    object-fit: cover;
+    width: 50%;
+    margin-left: 70px;
+}
+
+.video__player_user {
+    margin-left: 0px;
+    width: 100%;
+
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.text-pink {
+    color: #fe2c55;
+}
+
+.text-blue {
+    color: rgb(32, 213, 236);
+}
+
+.btn-danger {
+    background-color: #fe2c55 !important;
+    border-color: #fe2c55 !important;
+}
+
+.btn_new {
+    margin-top: 5px;
+    padding: 3px 40px;
+}
+
+.btn-outline-danger {
+    border-color: #fe2c55 !important;
+    color: #fe2c55;
+}
+
+.btn-outline-danger:hover,
+.btn-danger:hover {
+    background-color: #fe2c55 !important;
+}
+
+.search_tikTok {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ecebeb;
+    border-radius: 20px;
+    background-color: #ecebeb;
+    max-width: 50%;
+    margin: auto;
+}
+
+.search_tikTok_input {
+    border: none;
+    border-radius: 20px;
+    background-color: #ecebeb;
+}
+
+.search_tikTok_input:hover,
+.search_tikTok_input:active,
+.search_tikTok_input:focus {
+    border: none;
+    box-shadow: none;
+    background-color: #ecebeb;
+}
+
+.search_tikTok_icon {
+    display: block;
+    padding: 10px;
+    border-left: 1px solid #ecebeb;
+}
+
+.suggestedAccountIcon {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.user_photo {
+    width: 110px;
+    height: 110px;
+    margin-right: 20px;
+}
+
+.actions_tikTok {
+    width: 50px;
+    height: 50px;
+    background-color: #ecebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    border-radius: 100%;
+}
+
+.actions_tikTok:hover {
+    background-color: #fe2c55;
+    color: white;
+}
+
+.text-left {
+    padding-top: 15px;
+    font-size: 17px;
+}
+
+.col-sm-7,
+.col-sm-9 {
+    margin: 0 auto;
+}
+
+.user:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.my_link:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.share-info {
+    display: flex;
+    margin-left: 45px;
+}
+
+.count-infos {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 22px;
+    color: rgba(18, 18, 18, 0.75);
+}
+
+.user_video {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.post_user {
+    width: 33%;
+}
+
+.views_post {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.active {
+    text-align: center;
+    font-size: 25px;
+}
+
+.popul_people {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
