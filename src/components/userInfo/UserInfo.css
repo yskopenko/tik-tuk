@@ -1,39 +1,39 @@
 .btn_new {
-    margin-top: 5px;
-    padding: 3px 40px;
+  margin-top: 5px;
+  padding: 3px 40px;
 }
 
 .user_photo {
-    width: 110px;
-    height: 110px;
-    margin-right: 20px;
+  width: 110px;
+  height: 110px;
+  margin-right: 20px;
 }
 
 .my_link:hover {
-    color: #000;
-    text-decoration: underline;
+  color: #000;
+  text-decoration: underline;
 }
 
 .share-info {
-    display: flex;
-    margin-left: 45px;
+  display: flex;
+  margin-left: 45px;
 }
 
 .count-infos {
-    display: flex;
-    flex-wrap: wrap;
-    -webkit-box-align: center;
-    align-items: center;
-    margin-top: 22px;
-    color: rgba(18, 18, 18, 0.75);
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-top: 22px;
+  color: rgba(18, 18, 18, 0.75);
 }
 
 .popul_people {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
 }
 
 .number {
-    align-items: center;
+  align-items: center;
 }
